@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smooothing: antialiased;
+}
+:root{
+    --primary-color: #25df8f;
+    --border-color:#d9dde7; 
+    --secondary-text-color:#949FB7;
+    --primary-text-color:#1A1A1A;
+    --tertiary-text-color:#596172;
+    --border-color:#d9dde7;
+    --primary-white-color:#fff;
+    --apartment-background-color: #f6f6f7;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    line-height: 1.5;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.container{
+    margin-inline: 0 5rem;
+
+}
+.flex{
+    display: flex;
 }
