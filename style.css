@@ -32,6 +32,7 @@ a{
 input{
     border: none;
     outline: none;
+    color: var(--secondary-text-color);
 }
 
 .container{
@@ -41,3 +42,56 @@ input{
 .flex{
     display: flex;
 }
+
+/* styling navigation */
+nav {
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+
+}
+.first-half{
+    gap: 2.5rem;
+    align-items: center;
+}
+.logo{
+    margin-top:5px;
+}
+
+.search{
+    border: 0.5px solid var(--border-color);
+    padding: 0.4rem;
+    border-radius: 3px;
+    gap: 1rem;
+
+
+}
+.search input{
+    width: 15rem;
+}
+
+.second-half{
+    gap: 1rem;
+}
+
+.nav-links{
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-links li a{
+    color: var(--tertiary-text-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* home section styling */
+
